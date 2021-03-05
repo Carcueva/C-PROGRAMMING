@@ -1,0 +1,23 @@
+#include <stdio.h>
+void main()
+{
+int age;
+char name[50];
+
+ printf("\n Enter the Name of the person: ");
+ gets(name);
+
+ printf("\n Enter The Age : ");
+ scanf("%d",&age);
+
+ if(age>=18)
+  {
+    printf("\n %s You are eligible for voting");
+  }
+ else
+  {
+    printf("\n %s You are not eligible for voting");
+  }
+
+ getch();
+}
