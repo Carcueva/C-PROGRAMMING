@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int first, second, add, multiply, subtract;
+    float divide;
+
+    printf("Enter two integers\n");
+    scanf("%d%d", &first, & second);
+
+    add   = first + second;
+    multiply = first * second;
+    subtract = first- second;
+    divide = first / (float)second;
+
+    printf("Add = %d\n", add);
+    printf("Multiplication=%d\n", multiply);
+    printf ("Difference= %d\n", subtract);
+    printf("Division= %.5f\n", divide);
+
+return 0;
+}
